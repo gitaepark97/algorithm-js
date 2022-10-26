@@ -5,7 +5,7 @@ const { LinkedListNode } = require('./LinkedListNode');
 
 class LinkedList {
   /**
-   * @param {function(any, any): number} comparatorFunction
+   * @param {function(any, any): number} [comparatorFunction]
    */
   constructor(comparatorFunction) {
     this.head = null;
@@ -128,7 +128,7 @@ class LinkedList {
 
   /**
    *
-   * @param {{value: any, callback: function(any, any): boolean}} param0
+   * @param {{value?: any, callback?: function(any, any): boolean}} param0
    * @returns {LinkedListNode}
    */
   find({ value = undefined, callback = undefined }) {
@@ -228,7 +228,7 @@ class LinkedList {
   }
 
   /**
-   * @param {function(any): string} callback
+   * @param {function(any): string} [callback]
    * @returns {string}
    */
   toString(callback) {

@@ -2,7 +2,7 @@
 
 class Comparator {
   /**
-   * @param {function(any, any): number} compareFunction
+   * @param {function(any, any): number} [compareFunction]
    */
   constructor(compareFunction) {
     this.compare = compareFunction || Comparator.defaultCompareFunction;

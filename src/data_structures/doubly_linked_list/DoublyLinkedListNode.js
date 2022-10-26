@@ -13,7 +13,7 @@ class DoublyLinkedListNode {
 
   /**
    *
-   * @param {function(any): string} callback
+   * @param {function(any): string} [callback]
    * @returns {string}
    */
   toString(callback) {

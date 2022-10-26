@@ -3,7 +3,7 @@ const { DoublyLinkedListNode } = require('./DoublyLinkedListNode');
 
 class DoublyLinkedList {
   /**
-   * @param {function(any, any): number} comparatorFunction
+   * @param {function(any, any): number} [comparatorFunction]
    */
   constructor(comparatorFunction) {
     this.head = null;
@@ -97,7 +97,7 @@ class DoublyLinkedList {
   }
 
   /**
-   * @param {{value: any, callback: function(any): boolean}} param0
+   * @param {{value?: any, callback?: function(any): boolean}} param0
    * @returns {DoublyLinkedListNode}
    */
   find({ value = undefined, callback = undefined }) {
@@ -196,7 +196,7 @@ class DoublyLinkedList {
   }
 
   /**
-   * @param {function(any): string} callback
+   * @param {function(any): string} [callback]
    * @returns {string}
    */
   toString(callback) {
