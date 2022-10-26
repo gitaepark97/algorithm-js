@@ -1,0 +1,23 @@
+{
+  "name": "algorithm-js",
+  "version": "1.0.0",
+  "description": "Algorithms and Data structures with JS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitaepark97/algorithm-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitaepark97/algorithm-js/issues"
+  },
+  "homepage": "https://github.com/gitaepark97/algorithm-js#readme",
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "jest": "^29.2.2",
+    "prettier": "^2.7.1"
+  }
+}
