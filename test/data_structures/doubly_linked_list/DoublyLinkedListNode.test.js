@@ -1,3 +1,5 @@
+'use strict';
+
 const { DoublyLinkedListNode } = require('../../../src/data_structures/doubly_linked_list/DoublyLinkedListNode');
 
 describe('DoublyLinkedListNode', () => {

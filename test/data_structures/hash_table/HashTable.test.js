@@ -1,3 +1,5 @@
+'use strict';
+
 const { HashTable } = require('../../../src/data_structures/hash_table/HashTable');
 
 describe('HashTable', () => {

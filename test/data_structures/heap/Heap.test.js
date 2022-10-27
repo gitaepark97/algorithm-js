@@ -1,3 +1,5 @@
+'use strict';
+
 const { Heap } = require('../../../src/data_structures/heap/Heap');
 
 describe('Heap', () => {

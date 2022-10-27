@@ -1,3 +1,5 @@
+'use strict';
+
 const { LinkedList } = require('../linked_list/LinkedList');
 
 const defaultHashTableSize = 32;

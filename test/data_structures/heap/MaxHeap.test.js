@@ -1,3 +1,5 @@
+'use strict';
+
 const { MaxHeap } = require('../../../src/data_structures/heap/MaxHeap');
 const { Comparator } = require('../../../src/utils/Comparator');
 

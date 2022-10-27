@@ -1,3 +1,5 @@
+'use strict';
+
 const { MinHeap } = require('../../../src/data_structures/heap/MinHeap');
 const { Comparator } = require('../../../src/utils/Comparator');
 

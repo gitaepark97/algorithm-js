@@ -1,3 +1,5 @@
+'use strict';
+
 const { Queue } = require('../../../src/data_structures/queue/Queue');
 
 describe('Queue', () => {

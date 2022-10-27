@@ -1,3 +1,5 @@
+'use strict';
+
 const { Heap } = require('./Heap');
 
 class MinHeap extends Heap {

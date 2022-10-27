@@ -1,3 +1,5 @@
+'use strict';
+
 const { Comparator } = require('../../utils/Comparator');
 const { DoublyLinkedListNode } = require('./DoublyLinkedListNode');
 

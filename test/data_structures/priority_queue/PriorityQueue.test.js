@@ -1,3 +1,5 @@
+'use strict';
+
 const { PriorityQueue } = require('../../../src/data_structures/priority_queue/PriorityQueue');
 
 describe('PriorityQueue', () => {

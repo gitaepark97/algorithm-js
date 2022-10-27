@@ -1,3 +1,5 @@
+'use strict';
+
 const { Comparator } = require('../../utils/Comparator');
 
 class Heap {

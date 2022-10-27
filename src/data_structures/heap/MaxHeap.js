@@ -1,3 +1,5 @@
+'use strict';
+
 const { Heap } = require('./Heap');
 
 class MaxHeap extends Heap {
